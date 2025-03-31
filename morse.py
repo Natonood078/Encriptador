@@ -43,7 +43,7 @@ def main(page):
        resultado += morseINV[simbolo]
       elif simbolo == '':
        resultado += ' '
-      return resultado
+     return resultado
     def encriptarPolar(txt):
      resultado = ""
      for letra in txt:
