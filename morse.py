@@ -51,7 +51,7 @@ def main(page):
        resultado += polar[letra.upper()]
       else:
        resultado += letra
-      return resultado
+     return resultado
     def desencriptarPolar(txt):
      resultado = ""
      for letra in txt:
@@ -67,7 +67,7 @@ def main(page):
        resultado += '/ '
       else:
        resultado += str(ord(letra.upper()) - ord('A') + 1) + " "
-      return resultado.strip()
+     return resultado.strip()
     def desencriptarA1Z26(txt):
      resultado = ""
      numeros = txt.split()
@@ -76,7 +76,7 @@ def main(page):
        resultado += ' '
       else:
        resultado += chr(int(num) + ord('A') - 1)
-      return resultado
+     return resultado
     def encriptar(e):
      txt = input.value.upper()
      if metodo.value == "Morse":
